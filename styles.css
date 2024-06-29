@@ -19,10 +19,36 @@ nav{
 }
 nav ul{
     display: flex;
-    justify-content: centre;
+    justify-content: center;
 }
 nav ul li{
     list-style: none;
     margin: 0 1rem ;
 
+}
+.left{
+    font-size: 1.7rem;
+}
+.firstSection{
+    display: flex;
+    justify-content:space-around ;
+    margin: 3rem 0;
+}
+.firstSection div{
+    width:30%;
+    align-items: center;
+
+}
+.leftSection{
+    font-size: 2.5rem;
+    margin: 3rem 0;
+
+}
+.rightSection img{
+    width: 80%;
+    margin: 1rem;
+}
+.purple{
+    color:blueviolet;
+    margin: 0;
 }
